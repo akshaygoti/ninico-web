@@ -1,0 +1,62 @@
+.tpabout-inner-logo{
+    position: relative;
+}
+
+.tpabout-logo{
+    position: absolute;
+    left: 22%;
+    right: 0;
+    bottom: -7px;
+}
+
+.tpabout-logo img{
+    width: 72%;
+}
+
+.tpabout-inner-list ul li a:hover{
+    text-decoration: underline;
+}
+
+.swiper{
+    width: 100%;
+}
+
+/* .swiper-container2 img{
+    opacity: 0.1;
+} */
+
+.swiper-container2{
+    position: relative;
+}
+
+.tpteam-content{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 20px;
+}
+
+.tpteam-position{
+    color: #fff;
+    font-weight: 500;
+}
+
+.tpteam-title{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.tpabout-inner-title-area button{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #a3a3a3;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.tpabout-inner-title-area button:hover{
+    background-color: #d51243;
+    border: 1px solid #d51243;
+    color: #fff;
+}

@@ -1,0 +1,55 @@
+table thead tr th, tbody tr td{
+    border: 1px solid #c6c6c6;
+    padding: 10px;
+}
+
+.cart-item  a img{
+    width: 125px;
+}
+
+thead tr th{
+    font-size: 17px;
+}
+
+.product-name{
+    font-weight: 600;
+    transition: all .3s ease-in;
+}
+
+.product-name:hover{
+    color: #d51243;
+}
+
+.qty{
+    width: 220px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #c6c6c6;
+}
+
+.tp-btn{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #d51243;
+    border-radius: 5px;
+}
+
+@media (max-width:768px) {
+    /* .product-img{
+        width: 125px;
+        height: 143px;
+    } */
+    .coupon1{
+        margin-top: 15px;    
+    }
+    .input-text{
+        margin-bottom: 6px;
+    }
+    .coupon2{
+        margin-top: 6px;
+    }
+}

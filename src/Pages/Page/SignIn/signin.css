@@ -1,0 +1,62 @@
+.tptrack-thumb img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tptrack-content{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tpsign-pass2:hover{
+    color: #d51243;
+    transition: all .4s ease-in-out;
+}
+
+.tptrack-id form input{
+    border: 0;
+    outline: 0;
+}
+
+.tptrack-btn button:hover{
+    background-color: #c61340;
+}
+
+.tptrack-btn2{
+    background-color: #f3eee7;
+}
+
+.tptrack-btn2 button:hover{
+    color: #fff;
+    background-color: black;
+}
+
+@media (max-width:1200px) {
+    
+}
+@media (max-width:992px) {
+    
+}
+@media (max-width:668px) {
+    
+}
+@media (max-width:576px) {
+    .tptrack-content{
+        padding: 20px 20px;
+    }
+    .lock-icon{
+        width: 100%;
+    }
+    .tptrack-id form input{
+        width: 100%;
+    }
+    .personal-data{
+        font-size: 14px;
+    }
+    .tpsign-remember .form-check{
+        font-size: 12px;
+    }
+    .tpsign-remember .tpsign-pass{
+        font-size: 14px;
+    }
+}

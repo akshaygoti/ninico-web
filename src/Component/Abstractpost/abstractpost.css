@@ -1,0 +1,100 @@
+.tpdealproduct-thumb{
+    position: relative;
+}
+
+.offer-price{
+    width: 80px;
+    height: 80px;
+    padding-top: 6px;
+    text-align: center;
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    background-color: #d51243;
+    color: white;
+    border-radius: 50px;
+    animation: hotdeal 2s linear infinite;
+}
+
+@keyframes hotdeal{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: .6;
+    }
+    75%{
+        opacity: .8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.progress{
+    width: 107%;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+
+.progress-bar{
+    width: 68%;
+    border-radius: 10px;
+    background-color: #d51243;
+    border: 3px solid #d51243;
+}
+
+.cdown{
+    width: 20%;
+    height: 5rem;
+    text-align: center;
+    background-color: white;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.cdown h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@media (max-width:1440px) {
+    
+}
+
+@media (max-width:1024px) {
+    
+}
+
+@media (max-width:768px) {
+    
+}
+
+@media (max-width:576px) {
+    .tpdealproduct-thumb img{
+        width: 100%;
+    }
+    .countdown{
+        flex-wrap: wrap;  
+    }
+    .cdown{
+        width: 35%;
+        margin-bottom: 10px;
+        display: grid;
+    }
+    .offer-price{
+        width: 65px;
+        height: 65px;
+        font-size: 10px;
+        top: 10%;
+        right: 30%;
+    }
+    .tpdealproduct-thumb small{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .tpdealproduct-thumb h3{
+        font-size: 25px;
+    }
+}

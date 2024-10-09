@@ -1,0 +1,133 @@
+.manu-icon{
+    display: none;
+}
+
+.dropbtn {
+    color: black;
+    font-size: 16px;
+    border: 1px solid #989898b0;
+}
+  
+.dropdown, .dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content, .dropdown-content1 {
+    display: none;
+    position: absolute;
+    min-width: 134px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 20;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn1 {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 13px 20px;
+}
+
+.dropbtn1:hover{
+    color: #d51243;
+}
+
+.dropdown-content1{
+    border-top: 2px solid #d51243;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 7px 15px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown:hover .dropdown-content, .dropdown1:hover .dropdown-content1  {display: block;}
+
+.dropdown-content a:hover, .dropdown-content1 a:hover {color: #d51243;}
+  
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+.header-cart{
+    position: relative;
+}
+
+.header-cart .product-count{
+    position: absolute;
+    top: -4px;
+    left: 13px;
+}
+
+.product-count{
+    width: 15px;
+    height: 15px;
+    background-color: #d51243;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+/* responsive */
+
+@media (max-width:1440px) {
+    .container{
+        min-width: 100%;
+        margin: 0;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width:1024px) {
+    .container{
+        min-width: 100%;
+        margin: 0;
+        padding: 10px 20px;
+    }
+    .manu-icon{
+        display: block;
+    }
+    .logo img{
+        margin: 0;
+    }
+    .search{
+        margin-left: 3rem;
+    }
+    .search-bar input{
+        min-width: 35rem;
+    }
+    .dropdown{
+        display: none;
+    }
+    .header-meta-value{
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .search-bar input{
+        min-width: 20rem;
+    }
+}
+
+@media (max-width:576px) {
+    .logo img{
+        margin-left: 1rem;
+    }
+    .search{
+        display: none;
+    }
+    .heart{
+        display: none;
+    }
+}

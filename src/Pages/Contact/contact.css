@@ -1,0 +1,23 @@
+.phone{
+    color: #d51243;
+}
+
+.Get-btn:hover {
+    background-color: #d51243;
+    color: white;
+}
+
+.Get-btn:hover .phone{
+    color: white;
+}
+
+.submit{
+    background-color: #d51243;
+    color: white;
+    padding: 13px 30px;
+    border-radius: 7px;
+}
+
+@media (max-width:1024px) {
+    
+}

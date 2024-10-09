@@ -1,0 +1,9 @@
+.errorpage{
+    position: relative;
+}
+
+.errortext{
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
